@@ -5,7 +5,7 @@
 }
 
 header{
-    background: url(img/buscarimg1.jpg);
+    background-color: burlywood;
     height: 400px;
     background-size: cover;
     display: flex;
@@ -68,3 +68,33 @@ header form button{
     object-fit: cover;
     border-radius: 5px;
 }
+
+@media screen and (max-width:460px){
+    
+    header{
+        width: 100%;
+        justify-content: center;
+       align-items: center;
+       font-size: 20px;
+       margin: auto;
+       background-color: burlywood;
+       height: 250px;
+    }
+    h1{
+        font-size: 18px;
+        text-align: center;
+        margin-top: auto;
+    }
+   
+    header form{
+        width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+    header form input{
+        width: 60%;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
